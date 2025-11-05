@@ -62,35 +62,35 @@
   block-size: fit-content;
 }
 
-.zero-sprint {
+.filter-sepia {
   filter: sepia(80%);
 }
 
-.first-sprint-start {
+.filter-sunny-day {
   filter: brightness(200%) saturate(150%);
 }
 
-.first-sprint-end {
+.filter-invert {
   filter: invert(0.8);
 }
 
-.second-sprint-start {
+.filter-old-photo {
   filter: saturate(150%) sepia(30%) contrast(140%);
 }
 
-.second-sprint-end {
+.filter-contrast {
   filter: contrast(350%);
 }
 
-.third-sprint-start {
+.filter-hue-rotate {
   filter: hue-rotate(45deg);
 }
 
-.third-sprint-end {
+.filter-grayscale {
   filter: grayscale(0.8);
 }
 
-.fourth-sprint {
+.filter-dramaric-movie {
   filter: saturate(300%) contrast(200%) sepia(30%);
 }
 
