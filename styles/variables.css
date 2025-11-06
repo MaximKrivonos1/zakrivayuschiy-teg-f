@@ -26,7 +26,7 @@
       #e7e7e7 0.01%,
       #1a1a1a 100%
     );
-  --page-width: clamp(23.438rem, 0.0011rem + 99.9975vw, 43.75rem);
+  --page-width: clamp(23.4375rem, 0.0011rem + 99.9975vw, 43.75rem);
   --text-stroke-color: #fff;
   --button-text-color: #fff;
   --heart-contour-color: #000;

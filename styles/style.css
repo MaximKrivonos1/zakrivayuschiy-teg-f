@@ -11,7 +11,6 @@
 */
 
 .page {
-  overflow-x: hidden;
   font-family: var(--main-font), sans-serif;
   background-image: var(--bg-image);
   background-size: cover;
@@ -19,17 +18,19 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: "wght" var(--card-text-fw);
+  inline-size: 100%;
 }
 
 .header {
+  max-inline-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 100px auto;
-  padding: clamp(7.625rem, 7.0481rem + 2.4615vw, 8.125rem)
-    clamp(1rem, -6.68rem + 32.768vw, 7.656rem);
-  outline: 2px solid var(--accent-color);
+  padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem)
+    clamp(1rem, -1.3437rem + 9.9996vw, 7.656rem);
+  border: 2px solid var(--accent-color);
   font-family: var(--accent-font), fantasy;
   background-color: var(--bg-color);
 }
@@ -50,6 +51,7 @@
 }
 
 .section__card {
+  max-inline-size: 100%;
   display: grid;
   gap: 50px;
   margin: 0 auto;
@@ -296,6 +298,7 @@
   align-items: center;
   margin-block-start: 50px;
   margin-block-end: 100px;
+  /margin: 50px auto 100px auto;
   padding: 15px 20px;
   inline-size: 335px;
   block-size: 55px;
